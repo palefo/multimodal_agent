@@ -28,7 +28,7 @@ _bootstrap_env()
 
 # ── 2. Import agent (env vars must be set first) ─────────────────────────────
 
-from PromptBasedAgent import graph  # noqa: E402
+from PromptBasedRagMultimodalAgent import graph  # noqa: E402
 from langchain_core.messages import HumanMessage, AIMessage  # noqa: E402
 
 # ── 3. Helpers ────────────────────────────────────────────────────────────────

@@ -22,7 +22,7 @@ from langchain_community.vectorstores import FAISS
 PROMPT_NAME  = "agent.prompt"
 PROMPT_PATH  = os.path.join(os.path.dirname(__file__), "prompts", PROMPT_NAME)
 RAG_DIR      = os.path.join(os.path.dirname(__file__), "rag")
-OPENAI_MODEL = "gpt-4.1-mini"
+OPENAI_MODEL = "gpt-4.1"
 
 # Local embedding model – downloaded once, cached in ~/.cache/huggingface
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"

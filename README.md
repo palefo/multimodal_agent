@@ -80,3 +80,10 @@ OPENAI_API_KEY = "sk-..."
 | `.docx` | `Docx2txtLoader` |
 
 Add new files to `rag/` and redeploy — the index rebuilds automatically. Do not forget to remove the Conan Doyle novel in the folder.
+
+---
+
+
+## Multimodality
+
+You need to use an appropiate model.
